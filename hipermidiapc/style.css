@@ -1,0 +1,45 @@
+.Titulo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.Main{
+    background-image:url('./imgs/abc.PNG') ;
+}
+
+.article1{
+    background-color: rgb(139,0,0);
+}
+
+.article2{
+    background-color:  rgb(139,0,0);
+}
+
+.p1{
+    color: rgb(255,69,0) ;
+    text-align: center;
+}
+
+.p2{
+    color: rgb(255,69,0);
+    text-align: center;
+}
+
+nav li, a:link{
+    color:blue;
+
+} 
+nav a:visited{
+    color: maroon;
+} 
+nav a:active{
+    color: darkgreen;
+} 
+
+nav li::before{
+    content: "\279D";
+}
+
+nav a:hover{
+    background-color: yellow;
+}
+
