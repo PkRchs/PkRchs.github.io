@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+    <meta charset="UTF-8"> 
+    <title>Locadora de carros</title>
+  </head>
+  <body>
+    <form action="#" method="POST" id="formulario">
+        <div>
+            <h1>Locadora de Carros</h1>
+            <p><b>Preencha o formulário abaixo:</b></p>
+        </div><fieldset>
+        <legend>Dados Pessoais</legend>
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome">
+          &nbsp;
+          <label for="sobrenome">Sobrenome:</label>
+          <input type="text" name="sobrenome" id="sobrenome">
+        </div>
+        <br>
+        
+        
+        <div>
+          <label for="Telefone">Telefone:</label>
+          <input type="text" id="rg" name="rg" size="14" maxlength="9">
+        </div>
+        <br>
+        <div>
+          
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Dados do Carro</legend>
+        
+        
+        <br>
+        <div>
+          <label for="Cidade retirada">Cidade Retirada:</label>
+          <select name="Cidade retirada" id="cidadeRetirada">
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RJC">Campos dos Goytacazes</option>
+             <option value="ES">Vitória</option>
+          </select>
+        </div>
+        <br>
+        <div>
+            <label for="Cidade Entrega">Cidade Entrega:</label>
+            <select name="Cidade Entrega" id="cidadeEntrega">
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RJC">Campos dos Goytacazes</option>
+               <option value="ES">Vitória</option>
+            </select>
+          </div>
+        <br>
+        <div>
+            <label>DataRetirada:</label>
+            <input id="date" type="date">
+        </div>
+        <br>
+        <div>
+            <label>DataDevoluçao:</label>
+            <input id="date" type="date">
+        </div>
+        <br>
+        <div>
+            <label for="Tipo Carro">Tipo Carro:</label>
+            <select name="Tipo Carro" id="tipoCarro">
+              <option value="basico">Básico(R$ 119.00)</option>
+              <option value="basicoar">Básico c/ar(R$ 199.00)</option>
+               <option value="executivo">Executivo (R$ 299.00)</option>
+            </select>
+          </div>
+          <br>
+          <button type="submit" id="registerbtn">Efetuar locação</button>
+</body></html>
+<script src="p2.JS" defer></script>
